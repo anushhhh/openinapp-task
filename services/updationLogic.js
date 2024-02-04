@@ -1,3 +1,6 @@
+const Subtask = require('../models/subtask')
+const Task = require('../models/task')
+
 async function updateSubTaskLogic(status) {
     if(status === 'TODO') {
         return 0;

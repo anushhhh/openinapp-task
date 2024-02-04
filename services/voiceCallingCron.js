@@ -7,7 +7,7 @@ const accountSid = process.env.TWILIO_ACCOUNT_SID;
 const authToken = process.env.TWILIO_AUTH_TOKEN;
 const twilioClient = new twilio(accountSid, authToken);
 
-cron.schedule('10 * * * *', async () => {
+cron.schedule('* * * * *', async () => {
     try {
         // Fetch tasks with overdue due dates
         const overdueTasks = await Task.find({

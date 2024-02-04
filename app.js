@@ -4,11 +4,11 @@ const User = require('./models/user');
 const Task = require('./models/task');
 const Subtask = require('./models/subtask');
 const authenticateToken = require('./middleware/auth')
-const { updateSubTaskLogic, updateTaskStatus } = require('./services/updationLogic')
 require('dotenv').config();
 require('./db/conn');
 const taskPriorityCron = require('./services/taskPriorityCron')
 const voiceCallingCron = require('./services/voiceCallingCron')
+const { updateSubTaskLogic, updateTaskStatus } = require('./services/updationLogic')
 
 const app = new express();
 const port = 4000;
