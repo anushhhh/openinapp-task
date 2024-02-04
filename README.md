@@ -13,7 +13,7 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - Authentication using JWT tokens
 - Twilio integration for voice calls based on user priorities
 
-  # Technologies
+# Technologies
 
 - Node.js
 - Express.js
@@ -22,7 +22,7 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - JWT (JSON Web Tokens)
 - Twilio API for voice calls
 
-  # API Endpoints
+# API Endpoints
   
 - Create User: POST /users
 - Get User: GET /users/:userId
