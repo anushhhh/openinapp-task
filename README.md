@@ -1,8 +1,8 @@
-# Introduction
+# Introduction 🚀
 
 This assignment is a task management system with a set of APIs to manage tasks and their associated subtasks. It provides functionalities such as creating tasks, creating subtasks, updating task and subtask statuses, and soft deletion of tasks and subtasks.
 
-# Features
+# Features 🌟
 
 - Create, update, and delete tasks
 - Create, update, and delete subtasks associated with tasks
@@ -13,7 +13,7 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - Authentication using JWT tokens
 - Twilio integration for voice calls based on user priorities
 
-# Technologies
+# Technologies 🛠️
 
 - Node.js
 - Express.js
@@ -22,7 +22,7 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - JWT (JSON Web Tokens)
 - Twilio API for voice calls
 
-# API Endpoints
+# API Endpoints 🚪
   
 - Create User: POST /users
 - Get User: GET /users/:userId
@@ -36,13 +36,13 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - Delete Task: DELETE /tasks/:taskId
 - Delete Subtask: DELETE /subtasks/:subtaskId
 
-# Folder Structure
+# Folder Structure 📂
 
-- db: MongoDB connection logic. (conn.js)
-- models: MongoDB schema models for tasks, subtasks, and users.
-- middleware: Authentication/Authorization middleware function.
-- services:
-            - Contains Cron Jobs for task priority updation and voice calling as per user's priority using twilio.
-            - Subtask status updation logic when Task status is updated and Task status updation logic when subtask status is updated. 
-- app.js: Entry point of the application.
-- env.js: To be renamed ".env" after cloning. 
+- 📂 db: MongoDB connection logic. (conn.js)
+- 📂 models: MongoDB schema models for tasks, subtasks, and users.
+- 📂 middleware: Authentication/Authorization middleware function.
+- 📂 services:
+            - 📄 Contains Cron Jobs for task priority updation and voice calling as per user's priority using twilio.
+            - 📄 Subtask status updation logic when Task status is updated and Task status updation logic when subtask status is updated. 
+- 📄 app.js: Entry point of the application.
+- 📄 env.js: To be renamed ".env" after cloning. 
