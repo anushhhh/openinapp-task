@@ -42,7 +42,7 @@ This assignment is a task management system with a set of APIs to manage tasks a
 - 📂 models: MongoDB schema models for tasks, subtasks, and users.
 - 📂 middleware: Authentication/Authorization middleware function.
 - 📂 services:
-            - 📄 Contains Cron Jobs for task priority updation and voice calling as per user's priority using twilio.
-            - 📄 Subtask status updation logic when Task status is updated and Task status updation logic when subtask status is updated. 
+  - 📄 Contains Cron Jobs for task priority updation and voice calling as per user's priority using twilio.
+  - 📄 Subtask status updation logic when Task status is updated and Task status updation logic when subtask status is updated. 
 - 📄 app.js: Entry point of the application.
 - 📄 env.js: To be renamed ".env" after cloning. 
